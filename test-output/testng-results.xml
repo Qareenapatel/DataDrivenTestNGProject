@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-29T11:53:04 EDT" name="Default suite" finished-at="2022-06-29T11:53:15 EDT" duration-ms="11319">
+    <groups>
+    </groups>
+    <test started-at="2022-06-29T11:53:04 EDT" name="Default test" finished-at="2022-06-29T11:53:15 EDT" duration-ms="11319">
+      <class name="datadriventest.DataDrivenTestWithExcel">
+        <test-method is-config="true" signature="setup()[pri:0, instance:datadriventest.DataDrivenTestWithExcel@659499f1]" started-at="2022-06-29T11:53:04 EDT" name="setup" finished-at="2022-06-29T11:53:07 EDT" duration-ms="2914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventest.DataDrivenTestWithExcel@659499f1]" started-at="2022-06-29T11:53:08 EDT" name="loginTest" data-provider="LoginData" finished-at="2022-06-29T11:53:11 EDT" duration-ms="3184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventest.DataDrivenTestWithExcel@659499f1]" started-at="2022-06-29T11:53:11 EDT" name="loginTest" data-provider="LoginData" finished-at="2022-06-29T11:53:12 EDT" duration-ms="1527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventest.DataDrivenTestWithExcel@659499f1]" started-at="2022-06-29T11:53:12 EDT" name="loginTest" data-provider="LoginData" finished-at="2022-06-29T11:53:14 EDT" duration-ms="1232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriventest.DataDrivenTestWithExcel@659499f1]" started-at="2022-06-29T11:53:14 EDT" name="loginTest" data-provider="LoginData" finished-at="2022-06-29T11:53:15 EDT" duration-ms="1229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Adm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datadriventest.DataDrivenTestWithExcel@659499f1]" started-at="2022-06-29T11:53:15 EDT" name="tearDown" finished-at="2022-06-29T11:53:15 EDT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- datadriventest.DataDrivenTestWithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
